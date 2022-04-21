@@ -9,10 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.*
+import edu.zjut.contactsMaterial3Experimental.Helpers.InitialPinyinHelper
 import edu.zjut.contactsMaterial3Experimental.Helpers.NameUtils
 import edu.zjut.contactsMaterial3Experimental.beans.Contacts
 import edu.zjut.contactsMaterial3Experimental.databinding.FragmentContactsListBinding
 import edu.zjut.contactsMaterial3Experimental.ui.contacts.adapter.ContactAdapter
+import net.sourceforge.pinyin4j.PinyinHelper
 
 class ContactListFragment : Fragment() {
     private var _binding: FragmentContactsListBinding? = null
@@ -49,14 +51,17 @@ class ContactListFragment : Fragment() {
         val contactsList=ArrayList<Contacts>()
 
         for (i in 1..200){
+            val nameTemp: String = NameUtils.randomName(simple = true, len=(2..3).random())
             contactsList.add(Contacts(
-                Name=NameUtils.randomName(simple = true, len=(2..3).random()),
+                name=nameTemp,
                 wiredPhoneNumber = null,
                 mobilePhoneNumber = null,
                 workEmail = null,
-                groupBelonging = null))
+                groupBelonging = null,
+                nameInPinyin = InitialPinyinHelper.chineseToSpell(nameTemp)))
         }
 
+        contactsList.sortBy { Contacts -> Contacts.nameInPinyin }
         return contactsList
     }
 }

@@ -52,7 +52,7 @@ class ContactAdapter(contactsList: List<Contacts>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val contact:Contacts = mList[position]
-        holder.contactName.text = contact.Name
+        holder.contactName.text = contact.name
         holder.holderView.isClickable=true
         holder.holderView.setOnClickListener {
             Snackbar.make(it, holder.contactName.text.toString().plus("被点击"),Snackbar.LENGTH_SHORT).show()
