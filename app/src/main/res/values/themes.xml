@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ContactsM3" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/hard_pink</item>
+        <item name="colorPrimaryVariant">@color/soft_pink</item>
+        <item name="colorOnPrimary">@color/immature</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/summer_teal</item>
+        <item name="colorSecondaryVariant">@color/light_cyan</item>
+        <item name="colorOnSecondary">@color/peach</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

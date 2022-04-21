@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/accentuator.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/contacts.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_contacts_fill.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_plus.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_recently_line.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_recently_surface.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_wallet_fill.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_wallet_line.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/recently.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/splitter.xml" value="0.259" />
+        <entry key="app/src/main/res/drawable/wallet.xml" value="0.2695" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3795289855072464" />
+        <entry key="app/src/main/res/layout/activity_new_contact.xml" value="0.26458333333333334" />
+        <entry key="app/src/main/res/layout/contact_holder.xml" value="0.2653061224489796" />
+        <entry key="app/src/main/res/layout/contact_splitter.xml" value="0.34260429835651074" />
+        <entry key="app/src/main/res/layout/fragment_contacts_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.3795289855072464" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26458333333333334" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.26458333333333334" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.26458333333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
